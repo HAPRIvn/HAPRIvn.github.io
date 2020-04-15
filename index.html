@@ -1,7 +1,10 @@
 <html><!-- using code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs -->
   <head>
     <style>
-      body {font-family: Be Vietnam;}
+      body {
+          font-family: Be Vietnam;
+          text-align: center;
+        }
 
       /*Header*/
       h1 {color: rgb(0, 177, 172);}
@@ -11,7 +14,10 @@
       h5 {color: rgb(0, 177, 172);}
       h6 {color: rgb(0, 177, 172);}
       b  {color: rgb(0, 177, 172);}
-
+      p {
+        margin-right: 100px;
+        margin-left: 100px;
+      }
       /* Style the tab */
       .tab {
         overflow: hidden;
@@ -22,7 +28,7 @@
       /* Style the buttons inside the tab */
       .tab button {
         background-color: inherit;
-        float: left;
+        float: center;
         border: none;
         outline: none;
         cursor: pointer;
@@ -49,6 +55,13 @@
         border: 1px solid #ccc;
         border-top: none;
       }
+
+      /*Resize box container*/
+      .container {
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+      }
     </style>
 
     <meta charset="UTF-8">
@@ -60,7 +73,7 @@
 
   <body>
 
-    <div class="container" id="container">
+    <div class="container" id="container" >
       <h2>Potential Long-Term Intervention Strategies for COVID-19</h2>
       <p>
         A potential vaccine may take 12-18 months to be developed. What can we do to keep COVID-19 under control until then? We have developed a compartmental model of COVID-19 to evaluate possible outcomes of non-pharmaceutical interventions such as social distancing.
